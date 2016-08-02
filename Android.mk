@@ -44,6 +44,8 @@ LOCAL_SRC_FILES += $(default_classes) $(unique_specific_classes)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := org.cyanogenmod.hardware
 
+LOCAL_JAVA_LIBRARIES := org.slim.framework
+
 include $(BUILD_JAVA_LIBRARY)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
